@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body{
+    background: linear-gradient(to left, #4b39b5 0%, #ffffff 100%);
+}
+
+.navbar-bg{
+    background: linear-gradient(to left, #4b39b5 0%, #ffffff 100%);
+}
+
+.container-fluid{
+    margin:auto 50px;
+    margin-top: 10px;
+}
+
+.container-fluid .navbar-brand{
+    margin-right: 5px;
+}
+
+.sign a{
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.sign a:hover{
+    background-color: #e0313a;
+    text-decoration: none;
+    border: none;
+    color: black;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    letter-spacing: 0.5 px;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 50px;
+}
+
+.navbar-brand i{
+    color: rgb(252, 48, 99);
+}
+
+.nav-link{
+    color:rgb(58, 59, 59)!important;
+    letter-spacing: 0.2px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link:hover{
+    color: rgb(252, 48, 126)!important;
+}
+
+.active{
+    color: rgb(252, 48, 126)!important;
+}
+
+.medium1{
+    font-weight: 900;
+}
+
+.medium2{
+    font-weight: bold;
+}
+
+.welcome{
+    color: #006d64;
+    font-size: large;
+}
+
+.p{
+    font-size: large;
+}
+
+.btnDaftar{
+    background-color: #4b39b5;
+    border: 10px, none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.5s;
+    border-radius: 12px;
+}
+
+.btnMasuk{
+    background-color: transparent;
+    border: 2px solid #4b39b5;
+    color: #4b39b5;
+    padding: 16px 32px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.5s;
+    border-radius: 12px;
+    margin-left: 32px;
+}
+
+.button:hover{
+    background-color: rgb(206, 115, 255);
+    color: white;
+}
+
+@media screen and (max-width: 600px){
+    .img{
+        position: absolute;
+        margin-top: 40px;
+        top: 0;
+        display: block;
+        width: 500px;
+    }
+    .col1{
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .img{
+        position: absolute;
+        margin-top: 40px;
+        top: 0;
+        display: block;
+        width: 500px;
+    }
+    .col1{
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-width: 1199px){
+    .img{
+        z-index: -1;
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .img{
+        z-index: -1;
+        width: 500px;
+    }
+}
